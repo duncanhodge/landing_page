@@ -12,6 +12,8 @@ body {
     padding: 0;
 }
 
+/*Hero*/
+
 .hero {
     color: white;
     padding: 0px 100px 100px 100px;
@@ -80,7 +82,9 @@ button {
     font-size: 18px;
 }
 
-.rando-info {
+/*Nap time section*/
+
+.nap {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,23 +99,23 @@ button {
     color: #1F2937;
 }
 
-.rando-info ul, li {
+.nap ul, li {
     display: flex;
     gap: 16px;
     margin: 0;
     padding: 0;
 }
 
-.rando-info ul {
+.nap ul {
     flex-wrap: wrap;
 }
 
-.rando-info li {
+.nap li {
     flex-direction: column;
     align-items: center;
 }
 
-.rando-info img {
+.nap img {
     max-width: 100;
     width: 200px;
     height: auto;
@@ -129,7 +133,9 @@ button {
     color: #1F2937;
 }
 
-.calltoaction {
+/*Picture Sign Up*/
+
+.picturesOfMe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,11 +158,11 @@ button {
     margin: 5px;
 }
 
-.time {
+.signUp {
     font-weight: bold;
 }
 
-.calltoaction button {
+.picturesOfMe button {
     border-color: #F9FAF8;
 }
 
